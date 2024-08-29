@@ -1,2 +1,2 @@
 # joaomedeiros
-Repositório da turma de Engenharia Civiç
+Repositório da turma de Engenharia Civil
