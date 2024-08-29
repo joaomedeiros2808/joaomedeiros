@@ -1,0 +1,86 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPUZWNaWSSqv2k1FrJqH+Xj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/joaomedeiros2808/joaomedeiros/blob/main/Aula%2002%20-%20Algoritmo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kqns5GwGnbVM",
+        "outputId": "33e4aaec-91a0-492c-bed6-f5eade6c647c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=3\n",
+        "b=2\n",
+        "soma = a+b\n",
+        "print(soma)\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input(\"Digite aqui um número: \") )\n",
+        "quoc = num//2\n",
+        "rest = num%2\n",
+        "print(\"Quociente= \", quoc)\n",
+        "print(\"Resto= \", rest)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "guZk2heHqMLk",
+        "outputId": "3d255484-a12a-45f6-e2aa-cd64e69ba698"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite aqui um número: 9\n",
+            "Quociente=  4\n",
+            "Resto=  1\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
